@@ -1,0 +1,97 @@
+a{
+    text-decoration: none;
+    color: hsl(206,100%,40%);
+    
+}
+a:hover{
+    color:hsl(206,100%,52%)
+}
+.caption{
+    font-size: 9px;
+    justify-content: left;
+}
+
+.auth-section{
+     display:flex;
+     min-height: 100vh;
+     margin: 0 auto;
+     background-color:transparent;
+     justify-content: center;
+     align-items: center;
+     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI Adjusted","Segoe UI","Liberation Sans",sans-serif;;
+}
+.auth-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    justify-content: space-evenly;
+}
+
+.auth-container form{
+    min-width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding:25px 15px;
+    margin:0 0 24px 0;
+    border-radius: 7px;
+    background-color: hsl(0,0%,100%);
+    box-shadow: 0 8px 25px hsla(0,0%,0%,0.05), 0 20px 48px hsla(0, 0%, 0%, 0.05), 0 1px 4px hsla(0, 0%, 0%, 0.1);;
+}
+
+.login-logo{
+    padding:20px 30px; 
+}
+
+.auth-container-1{
+    font-weight: 400;
+    padding: 20px;
+    margin-right: 30px;
+    font-size: 13px;
+}
+
+
+.auth-container form label input{
+    
+     padding:5px;
+     width:calc(100%-30px);
+     border: solid 1px #0000003e;
+     font-size: 13px;
+}
+.auth-btn{
+    margin-top: 10px;
+    padding: 10px 5px;
+    background-color: hsl(206,100%,52%);
+    width: 100%;
+    color:#fff;
+    border:solid 1px hsl(206,100%,52%);
+    font-size: 12px;
+    font-weight: normal;
+    border-radius:3px;
+    cursor:pointer;
+    transition: 0.2s;
+  
+
+}
+.auth-btn:hover{
+    background-color:hsl(206,100%,40%);
+}
+.handle-switch-btn{
+    background-color: transparent;
+    color:#007ac6;
+    border:none;
+    font-size: 12px;
+    cursor:pointer;
+    transition: 0.2s;
+}
+.handle-switch-btn:hover{
+    color:hsl(206,100%,52%)
+}
+.display{
+    font-size: 12px;
+    margin-top:10px;
+    margin-bottom:5px;
+    font-weight:500;
+}
+
