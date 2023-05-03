@@ -8,9 +8,7 @@ import DisplayQuestion from './pages/Questions/DisplayQuestion';
 import Tags from './pages/Tags/Tags';
 import Users from './pages/Users/Users'
 import UserProfile from './pages/UserProfile/UserProfile'
-import MainPage from './pages/Community/MainPage'
 import PayGate from './pages/AskQuestion/PayGate';
-// import test from './pages/Payment2/test'
 
 export const AllRoutes = () => {
     return (
@@ -23,7 +21,6 @@ export const AllRoutes = () => {
             <Route exact path='/Tags' element={<Tags />} />
             <Route path='/Users' element={<Users />} />
             <Route path='/Users/:id' element={<UserProfile />} />
-            <Route path='/Community' element={<MainPage />} />
             <Route path='/Payment' element={<PayGate />} />
 
         </Routes>
