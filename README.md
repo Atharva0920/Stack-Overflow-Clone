@@ -1,6 +1,6 @@
 # Stack-Overflow-Clone
 
-# **[Checkout live site here ]**
+# **Checkout live site here **
 
 # Getting Started with Create React App
 
