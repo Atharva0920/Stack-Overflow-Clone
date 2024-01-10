@@ -1,6 +1,6 @@
 # Stack-Overflow-Clone
 
-<span style="font-size:larger; color:blue;">[Checkout live site here ](https://stack-overflow-clone-31.netlify.app/)</span>
+# **[Checkout live site here ]**
 
 # Getting Started with Create React App
 
